@@ -1,9 +1,9 @@
-# 🌐 Static Routing Network Project (Cisco Packet Tracer)
+#  Static Routing Network Project (Cisco Packet Tracer)
 
-## 📌 Overview
+##  Overview
 This project demonstrates the implementation of **Static Routing** using Cisco Packet Tracer. The network is designed with multiple routers and LANs to enable communication between different subnets.
 
-## 🏗️ Network Topology
+##  Network Topology
 - 3 Routers (R0, R1, R2)
 - 3 Switches
 - 6 PCs (2 per network)
@@ -12,7 +12,7 @@ Each router is connected to:
 - A local LAN via GigabitEthernet
 - Other routers via Serial interfaces
 
-## 🔧 IP Configuration
+##  IP Configuration
 
 ### Serial Links:
 - R0 ↔ R1 → 10.0.0.1 / 10.0.0.2
@@ -28,19 +28,19 @@ Each router is connected to:
 - Network 2 → 192.168.2.2, 192.168.2.3
 - Network 3 → 192.168.3.2, 192.168.3.3
 
-## ⚙️ Configuration
+##  Configuration
 - Assigned IP addresses to all router interfaces and PCs
 - Configured static routes on each router
 - Enabled inter-network communication
 
-## ✅ Testing
+##  Testing
 - Performed successful **ping test** from PC0 (R0 network) to PC5 (R2 network)
 - Verified end-to-end connectivity
 
-## 📸 Screenshots
+##  Screenshots
 Screenshots of the topology, routing configuration, and ping test are available in the `screenshots` folder.
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 - Understanding of static routing
 - Router-to-router communication
 - IP addressing and subnetting
